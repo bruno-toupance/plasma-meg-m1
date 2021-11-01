@@ -1,0 +1,11 @@
+jupyter labextension install \
+  jupyterlab-topbar-extension \
+  jupyterlab-system-monitor \
+  jupyterlab-topbar-text
+
+python -m bash_kernel.install --sys-prefix
+
+# Install R package
+# if not available as conda package
+# R -e "install.packages('rgl', repos = 'http://cran.rstudio.com/')"
+# R -e "install.packages('plotly', repos = 'http://cran.rstudio.com/')"

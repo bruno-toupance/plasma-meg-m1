@@ -1,0 +1,24 @@
+name: plasmabio-m1-meg-bt
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - jupyterlab>=3
+  - pip
+  - nbresuse
+  - nodejs
+  - r-irkernel
+  - r-base>=4.1.0
+  - r-rcpp
+  - r-tidyverse
+  - r-factominer
+  - r-dt
+  - r-rgl
+  - r-plotly
+  - pip:
+    - bash_kernel
