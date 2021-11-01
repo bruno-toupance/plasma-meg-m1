@@ -3,7 +3,7 @@ jupyter labextension install \
   jupyterlab-system-monitor \
   jupyterlab-topbar-text
 
-python -m bash_kernel.install --sys-prefix
+# python -m bash_kernel.install --sys-prefix
 
 # Install R package
 # if not available as conda package
